@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Background with Text</title>
+<title>absolutely epic math</title>
 <style>
   body {
     margin: 0;
@@ -16,14 +16,48 @@
     justify-content: center;
     align-items: center;
   }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
   h1 {
     font-size: 3em;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+  }
+  /* Style for buttons */
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-buttons a {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #ffffffaa; /* semi-transparent white */
+    color: #000;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .nav-buttons a:hover {
+    background-color: #fff;
   }
 </style>
 </head>
 <body>
-<h1>The Digital Underground 🌐</h1>
+  <div class="overlay">
+    <h1>The Digital Underground 🌐</h1>
+    <div class="nav-buttons">
+      <a href="games.html">Games</a>
+      <a href="apps.html">Apps</a>
+      <!-- Add more buttons as needed -->
+      <a href="about.html">About</a>
+    </div>
+  </div>
 </body>
 </html>
