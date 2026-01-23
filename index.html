@@ -8,7 +8,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url('https://i.redd.it/0bb6dqsiab451.gif');
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/08/marvel-miles-morales-dark-gif-desktop-wallpaper-preview.gif');
     background-size: cover; /* Fill the entire background */
     background-position: center;
     height: 100vh;
@@ -53,11 +53,23 @@
   <div class="overlay">
     <h1>The Digital Underground 🌐</h1>
     <div class="nav-buttons">
-      <a href="games.html">Games</a>
+      <a href="games.html">Game site links</a>
       <a href="apps.html">Apps</a>
       <!-- Add more buttons as needed -->
       <a href="about.html">About</a>
+       <a href="proxy.html">proxy</a>
+        <a href="meme-day.html">meme of the day</a>
     </div>
   </div>
 </body>
+<!-- Panic Button -->
+<button id="panicButton" style="position: fixed; bottom: 20px; right: 20px; padding: 15px 20px; background-color: red; color: white; border: none; border-radius: 8px; font-size: 1em; cursor: pointer; z-index: 1000;">
+  Panic Button
+</button>
+
+<script>
+  document.getElementById('panicButton').onclick = function() {
+    window.location.replace("about:blank");
+  };
+</script>
 </html>
